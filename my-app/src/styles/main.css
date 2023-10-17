@@ -1,0 +1,63 @@
+/*
+  This is a reasonable starting point for the CSS in Mock.
+  Positioning in CSS can sometimes be annoying to manage, so we've opted to 
+  give you this starter CSS. Feel free to modify it as you wish, though.
+*/
+
+.mock {
+    position:relative;
+    min-height:95vh;    
+}
+
+.mock-history {      
+    height:55vh;   
+    margin: auto;
+    display: block;
+    overflow: scroll;    
+}
+
+.mock-element {      
+    height:55vh;   
+    margin: auto;
+    display: block;
+    overflow: scroll;    
+}
+
+.mock-input {        
+    margin: 2vh;    
+    height:10vh;
+    padding-bottom: 17vh;
+}
+.mock-command-box {
+    width: 90%;            
+    margin: auto;
+    display: block;
+    padding: 1vh;
+}
+button{
+    margin: auto;
+    margin-top: 1vh;
+    display: block;
+}
+
+table{
+    margin: auto;
+    margin-top: 1vh;
+    width: auto;
+    border: 0; 
+}
+td,th{
+    text-align: center;
+    width: 10%;
+}
+
+thead{
+    width: 100%;
+    font-weight: bold;
+    background-color: #d7ffe8
+
+}
+table, th, td{
+    border: 1px solid hwb(0 0% 100%);
+    border-collapse: collapse;
+}
